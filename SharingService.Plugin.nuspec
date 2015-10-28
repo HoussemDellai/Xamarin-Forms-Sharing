@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+     <id>Xam.FormsPlugin.SharingService</id>
+     <version>1.0.0</version>
+     <title>Xamarin Forms Sharing</title>
+     <authors>Houssem Dellai</authors>
+     <owners>Houssem Dellai</owners>
+     <licenseUrl>https://github.com/HoussemDellai/Xamarin-Forms-Sharing</licenseUrl>
+     <projectUrl>https://github.com/HoussemDellai/Xamarin-Forms-Sharing</projectUrl>
+     <!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->
+     <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+     <description>
+       Share text across Android and Windows Phone from a single API, using Xamarin Forms.
+     </description>
+     <summary>Share text across Android and Windows Phone from a single API, using Xamarin Forms.</summary>
+     <tags>
+       xamarin, pcl, xam.pcl, plugin, plugin for xamarin.forms, windows phone, winphone, wp8, android, xamarin.forms,
+     </tags>
+       <dependencies>
+       </dependencies>
+   </metadata>
+   <files>
+<!--Core-->
+     <file src="SharingService\SharingService.Plugin\bin\Release\SharingService.Plugin.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SharingService.Plugin.dll" />
+     <file src="SharingService\SharingService.Plugin\bin\Release\SharingService.Plugin.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SharingService.Plugin.xml" />
+     <file src="SharingService\SharingService.Plugin\bin\Release\SharingService.Plugin.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SharingService.Plugin.pdb" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SharingService.Plugin.Abstractions.dll" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SharingService.Plugin.Abstractions.xml" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SharingService.Plugin.Abstractions.pdb" />
+
+     <!--Win Phone Silverlight-->
+     <file src="SharingService\SharingService.Plugin.WindowsPhone8\bin\Release\SharingService.Plugin.dll" target="lib\wp8\SharingService.Plugin.dll" />
+     <file src="SharingService\SharingService.Plugin.WindowsPhone8\bin\Release\SharingService.Plugin.xml" target="lib\wp8\SharingService.Plugin.xml" />
+     <file src="SharingService\SharingService.Plugin.WindowsPhone8\bin\Release\SharingService.Plugin.pdb" target="lib\wp8\SharingService.Plugin.pdb" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.dll" target="lib\wp8\SharingService.Plugin.Abstractions.dll" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.xml" target="lib\wp8\SharingService.Plugin.Abstractions.xml" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.pdb" target="lib\wp8\SharingService.Plugin.Abstractions.pdb" />
+
+     <!--Win Phone 81-->
+     <file src="SharingService\SharingService.Plugin.WindowsPhone81\bin\Release\SharingService.Plugin.dll" target="lib\wpa81\SharingService.Plugin.dll" />
+     <file src="SharingService\SharingService.Plugin.WindowsPhone81\bin\Release\SharingService.Plugin.xml" target="lib\wpa81\SharingService.Plugin.xml" />
+     <file src="SharingService\SharingService.Plugin.WindowsPhone81\bin\Release\SharingService.Plugin.pdb" target="lib\wpa81\SharingService.Plugin.pdb" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.dll" target="lib\wpa81\SharingService.Plugin.Abstractions.dll" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.xml" target="lib\wpa81\SharingService.Plugin.Abstractions.xml" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.pdb" target="lib\wpa81\SharingService.Plugin.Abstractions.pdb" />
+
+
+     <!--WinStore-->
+     <file src="SharingService\SharingService.Plugin.WindowsStore\bin\Release\SharingService.Plugin.dll" target="lib\win8\SharingService.Plugin.dll" />
+     <file src="SharingService\SharingService.Plugin.WindowsStore\bin\Release\SharingService.Plugin.xml" target="lib\win8\SharingService.Plugin.xml" />
+     <file src="SharingService\SharingService.Plugin.WindowsStore\bin\Release\SharingService.Plugin.pdb" target="lib\win8\SharingService.Plugin.pdb" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.dll" target="lib\win8\SharingService.Plugin.Abstractions.dll" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.xml" target="lib\win8\SharingService.Plugin.Abstractions.xml" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.pdb" target="lib\win8\SharingService.Plugin.Abstractions.pdb" />
+
+
+     <!--Xamarin.Android-->
+     <file src="SharingService\SharingService.Plugin.Android\bin\Release\SharingService.Plugin.dll" target="lib\MonoAndroid10\SharingService.Plugin.dll" />
+     <file src="SharingService\SharingService.Plugin.Android\bin\Release\SharingService.Plugin.xml" target="lib\MonoAndroid10\SharingService.Plugin.xml" />
+     <file src="SharingService\SharingService.Plugin.Android\bin\Release\SharingService.Plugin.pdb" target="lib\MonoAndroid10\SharingService.Plugin.pdb" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.dll" target="lib\MonoAndroid10\SharingService.Plugin.Abstractions.dll" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.xml" target="lib\MonoAndroid10\SharingService.Plugin.Abstractions.xml" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\SharingService.Plugin.Abstractions.pdb" />
+     
+     <!--Xamarin.iOS Unified-->
+     <file src="SharingService\SharingService.Plugin.iOSUnified\bin\iPhone\Release\SharingService.Plugin.dll" target="lib\Xamarin.iOS10\SharingService.Plugin.dll" />
+     <file src="SharingService\SharingService.Plugin.iOSUnified\bin\iPhone\Release\SharingService.Plugin.xml" target="lib\Xamarin.iOS10\SharingService.Plugin.xml" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.dll" target="lib\Xamarin.iOS10\SharingService.Plugin.Abstractions.dll" />
+     <file src="SharingService\SharingService.Plugin.Abstractions\bin\Release\SharingService.Plugin.Abstractions.xml" target="lib\Xamarin.iOS10\SharingService.Plugin.Abstractions.xml" />
+
+
+
+   </files>
+</package>
