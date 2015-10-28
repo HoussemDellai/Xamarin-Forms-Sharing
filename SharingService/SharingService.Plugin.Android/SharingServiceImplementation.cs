@@ -1,5 +1,4 @@
 using SharingService.Plugin.Abstractions;
-using System;
 using Android.App;
 using Android.Content;
 
